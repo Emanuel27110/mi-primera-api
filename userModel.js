@@ -1,16 +1,19 @@
 const mongoose=require('mongoose');
 const userSchema= new mongoose.Schema(
     {
-      name:{
+      evento:{
         type:String
       },
-      career:{
+      fecha:{
         type:String
       },
-      subject:{
+      hora:{
         type:String
       },
-      qualification:{
+      ubicacion:{
+        type:String
+      },
+      tematica:{
         type:String
       }
     },
