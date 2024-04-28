@@ -4,10 +4,13 @@ const userSchema= new mongoose.Schema(
       name:{
         type:String
       },
-      email:{
+      career:{
         type:String
       },
-      password:{
+      subject:{
+        type:String
+      },
+      qualification:{
         type:String
       }
     },
